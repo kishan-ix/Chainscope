@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Security Headers - Development Mode (Permissive for debugging) -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; connect-src *; font-src *; object-src 'none'; base-uri 'self'; form-action 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Favicons and App Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon-new.svg" />
+    <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/logo.svg" />
+    
+    <meta name="theme-color" content="#6366f1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="ChainScope">
+    
+    <!-- SEO and App Meta -->
+    <title>ChainScope - Blockchain Network Explorer & RPC Directory | Discover 2,000+ Networks</title>
+    <meta name="description" content="The definitive blockchain network explorer and RPC directory for developers and users worldwide. Discover, monitor, and connect to 2,000+ blockchain networks with real-time RPC health monitoring, comprehensive analytics, and instant wallet integration capabilities.">
+    <meta name="keywords" content="blockchain networks, RPC endpoints, cryptocurrency, ethereum, polygon, arbitrum, optimism, bsc, web3, dapp, blockchain explorer, RPC health monitoring, chain analytics, AI blockchain tools, web3 infrastructure, layer 1, layer 2, testnet, mainnet, wallet integration, network comparison">
+    <meta name="author" content="ChainScope">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://chainscope.app/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="ChainScope - Blockchain Network Explorer & RPC Directory">
+    <meta property="og:description" content="The definitive blockchain network explorer and RPC directory for developers and users worldwide. Discover, monitor, and connect to 2,000+ blockchain networks with real-time RPC health monitoring, comprehensive analytics, and instant wallet integration capabilities.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chainscope.app/">
+    <meta property="og:image" content="https://chainscope.app/og-image.png">
+    <meta property="og:site_name" content="ChainScope">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ChainScope - Blockchain Network Explorer & RPC Directory">
+    <meta name="twitter:description" content="The definitive blockchain network explorer and RPC directory for developers and users worldwide. Discover, monitor, and connect to 2,000+ blockchain networks with real-time RPC health monitoring, comprehensive analytics, and instant wallet integration capabilities.">
+    <meta name="twitter:image" content="https://chainscope.app/og-image.png">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
